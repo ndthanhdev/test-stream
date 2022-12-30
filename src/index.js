@@ -38,8 +38,8 @@ function requestDisplay() {
 	navigator.mediaDevices
 		.getDisplayMedia({
 			video: {
-				width: 320,
-				height: 240,
+				width: 1280,
+				height: 720,
 			},
 			audio: false,
 		})
